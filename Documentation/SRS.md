@@ -27,7 +27,7 @@
 Приложение разрабатывается на языке Java под Windows.
 
 ### 2.2 Интерфейсы пользователя <a name="2.2"></a>
-Вид приложения имеет в начале [вход в систему](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/1.png). Затем работа с [меню](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/2.png), в которой будут представлены ингредиенты и выбор пиццы. Далее вывод информации [чека](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/3.png), который будет выводиться в файл.
+Вид приложения имеет в начале [вход в систему](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/1.png). Затем работа с [меню](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/3.png), в которой будут представлены ингредиенты и выбор пиццы. Далее вывод информации [чека](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/2.png), который будет выводиться в файл.
 
 ### 2.3 Характеристики пользователя <a name="2.3"></a>
 Данное приложение представленно для кассиров, барменов и официантов для работы в пиццерии.
