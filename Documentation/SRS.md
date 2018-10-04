@@ -24,7 +24,7 @@
 ## 2. Требования пользователя <a name="2"></a>
 
 ### 2.1 Программные интерфейсы <a name="2.1"></a>
-Приложение разрабатывается на языке Java под Windows.
+Приложение разрабатывается на языке Java под Windows и Linux.
 
 ### 2.2 Интерфейсы пользователя <a name="2.2"></a>
 Вид приложения имеет в начале [вход в систему](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/mockups/start_work.png). Затем работа с [меню](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/mockups/menu.png), в которой будут представлены ингредиенты и выбор пиццы. Далее вывод информации [чека](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/mockups/check_list.png), который будет выводиться в файл.
