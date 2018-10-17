@@ -9,7 +9,7 @@
 
 
 ### 1. Диаграмма активности<a name="1"></a>
-Диагаммы активности представлены в следующией [директории]https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Documentation/Diagrams/Activity)
+Диагаммы активности представлены в следующией [директории](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Documentation/Diagrams/Activity).
 
 ### 2. Диаграмма классов<a name="2"></a>
 Диаграмма классов представляет собой следующую диаграмму: 
