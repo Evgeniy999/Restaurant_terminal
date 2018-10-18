@@ -64,6 +64,11 @@
 
 ![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Choice_ingredients.png)
 
+## Choice orders:
+
+![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Choice_orders.png)
+
+
 ### 4. Диаграмма классов<a name="2"></a>
 Диаграмма классов представляет собой следующую диаграмму: 
   
