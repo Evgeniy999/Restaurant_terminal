@@ -60,6 +60,10 @@
 
 ![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Authentication.png)
 
+## Choice ingredients:
+
+![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Choice_ingredients.png)
+
 ### 4. Диаграмма классов<a name="2"></a>
 Диаграмма классов представляет собой следующую диаграмму: 
   
