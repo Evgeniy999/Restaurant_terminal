@@ -56,7 +56,7 @@
 
 ### 3. Диаграмма последовательности<a name="3"></a>
 Диаграмма последовательности основного варианта использования представляет из себя следующую диаграмму:
-##Authentication:
+## Authentication:
 
 ![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Authentication.png)
 
