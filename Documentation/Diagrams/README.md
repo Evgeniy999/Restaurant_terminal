@@ -72,6 +72,10 @@
 
 ![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Drawing_order.png)
 
+## Order cancellation:
+
+![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Exit.png)
+
 
 
 ### 4. Диаграмма классов<a name="2"></a>
