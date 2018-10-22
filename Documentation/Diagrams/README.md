@@ -10,7 +10,7 @@
 
 ### 1. Диаграмма прецедентов<a name="6"></a>
 Диаграмма прецедентов представляет собой следующую диаграмму: 
-![Use Case](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/UseCase/UseCase.png)
+![Use Case](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/UseCase/UseCase_.png)
 
 
 
