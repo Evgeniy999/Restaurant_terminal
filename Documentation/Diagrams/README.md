@@ -92,6 +92,11 @@
 ![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Order_history.png)
 
 
+## Discount to customers:
+
+![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Discount_to_customers.png)
+
+
 
 ### 4. Диаграмма классов<a name="3"></a>
 Диаграмма классов представляет собой следующую диаграмму: 
