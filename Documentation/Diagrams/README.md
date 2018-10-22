@@ -87,6 +87,10 @@
 
 ![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Exit.png)
 
+## Order history:
+
+![Sequence Diagram](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence/Order_history.png)
+
 
 
 ### 4. Диаграмма классов<a name="3"></a>
