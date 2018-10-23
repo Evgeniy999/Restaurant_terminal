@@ -12,4 +12,4 @@ Restaurant_terminal позволяет выполнять необходимые
 
 [Activity charts](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Documentation/Diagrams/Activity)
 
-[Sequence diagrams](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Sequence)
+[Sequence diagrams](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Documentation/Diagrams/Sequence)
