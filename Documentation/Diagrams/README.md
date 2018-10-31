@@ -100,7 +100,22 @@
 
 ### 4. Диаграмма классов<a name="3"></a>
 Диаграмма классов представляет собой следующую диаграмму: 
+
+![Class](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Class/ClassUML.PNG)
   
 ### 5. Диаграмма состояний<a name="4"></a>
 
+#### 5.1 Вход в систему
+
+![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Access.PNG)
+
+#### 5.2. Выбор определенных параметров
+
+![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Choice.PNG)
+
+#### 5.3 Печать заказ
+![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Print.PNG)
+
 ### 6. Диаграмма развертывания<a name="5"></a>
+
+![Deployment](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/Deployment/Deployment.PNG)
