@@ -10,4 +10,4 @@
 ![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Choice_.PNG)
 
 ## 3. Печать заказ
-![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Print_.PNG)
+![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Print__.PNG)
