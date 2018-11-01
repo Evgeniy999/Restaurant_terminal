@@ -114,7 +114,7 @@
 ![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Choice_.PNG)
 
 #### 5.3 Печать заказ
-![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Print.PNG)
+![State](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/Diagrams/State/Print_.PNG)
 
 ### 6. Диаграмма развертывания<a name="6"></a>
 
