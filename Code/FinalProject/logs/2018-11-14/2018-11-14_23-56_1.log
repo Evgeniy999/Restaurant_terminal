@@ -1,0 +1,11 @@
+2018-11-14 23:45:00 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:16 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:17 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:17 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:32 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:33 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:33 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:33 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:33 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:46:34 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
+2018-11-14 23:56:28 [JavaFX Application Thread] INFO  entity.Pizza - Pizza is full, check the order!
