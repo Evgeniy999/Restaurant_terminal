@@ -96,7 +96,7 @@ public class Pizza {
         }
     }
 
-    public String toString() {
+    public String order() {
         Formatter formatter = new Formatter();
         formatter.format("%-2s%-2s%-2s%2s%1s%n", "Pizza Base (", nameType, ")", priceType, "$");
 

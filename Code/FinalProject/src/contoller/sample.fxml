@@ -68,7 +68,7 @@
          </children></HBox>
       <HBox prefHeight="47.0" prefWidth="600.0">
          <children>
-            <Button fx:id="btn_pepperoni" mnemonicParsing="false" onAction="#pepperoniButton" text="PEPPERONI">
+            <Button fx:id="btn_pepperoni" disable="true" mnemonicParsing="false" onAction="#pepperoniButton" text="PEPPERONI">
                <HBox.margin>
                   <Insets left="2.0" top="10.0" />
                </HBox.margin></Button>
@@ -134,7 +134,7 @@
          </children>
       </HBox>
       <TextArea fx:id="ing" prefHeight="140.0" prefWidth="600.0" />
-      <Button mnemonicParsing="false" onAction="#createOrder" text="заказать">
+      <Button fx:id="zakaz" mnemonicParsing="false" onAction="#createOrder" text="заказать">
          <VBox.margin>
             <Insets left="500.0" top="5.0" />
          </VBox.margin>

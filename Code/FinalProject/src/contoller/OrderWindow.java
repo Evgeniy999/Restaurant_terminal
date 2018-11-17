@@ -1,25 +1,31 @@
 package contoller;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
 
-import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.io.IOException;
 
 public class OrderWindow {
 
     @FXML
     private TextArea orderStr;
+    @FXML
+    private Button orderButton;
+    private static OrderWindow orderWindow;
+
 
     @FXML
-    public void show(ActionEvent event) {
-        String str = Controller.getOrder().toString();
-        orderStr.setText(str);
+    public void showEvent() {
+        Controller controller = new Controller();
+        orderStr.setText("");
+        orderStr.setText(Controller.getOrder().toString());
     }
-
+// кнопка заказ писать в файл и вывод заказа в окно с  помощью чтения
     @FXML
     public void launchOrderWindow() {
         Parent root;
