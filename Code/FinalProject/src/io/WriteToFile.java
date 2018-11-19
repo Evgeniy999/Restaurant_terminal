@@ -23,4 +23,17 @@ public class WriteToFile {
             e.printStackTrace();
         }
     }
+    public static void writeInformationOrder(String fileLocation, String data) {
+        File file = new File(fileLocation);
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file, false));
+            writer.write(data);
+            logger.log(Level.INFO, "Completed successfully!");
+            writer.close();
+        } catch (FileNotFoundException f) {
+            logger.log(Level.INFO, "File not found!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

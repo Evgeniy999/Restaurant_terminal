@@ -21,7 +21,7 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <Button layoutX="524.0" layoutY="14.0" mnemonicParsing="false" text="Назад" />
+            <Button fx:id="cancel" layoutX="524.0" layoutY="14.0" mnemonicParsing="false" onAction="#launchReturnMain" text="Назад" />
          </children>
       </Pane>
       <HBox prefHeight="54.0" prefWidth="600.0">
@@ -31,7 +31,7 @@
                   <Insets left="10.0" top="10.0" />
                </HBox.margin>
             </Label>
-            <ComboBox fx:id="typeBox" onAction="#setTypeButton" prefWidth="150.0">
+            <ComboBox fx:id="typeBox" disable="true" onAction="#setTypeButton" prefWidth="150.0">
                <HBox.margin>
                   <Insets left="10.0" top="10.0" />
                </HBox.margin>
@@ -51,7 +51,7 @@
                   <Insets left="5.0" top="10.0" />
                </HBox.margin>
             </TextField>
-            <Button mnemonicParsing="false" onAction="#setNumberButton" text="ввод">
+            <Button fx:id="btn_input" disable="true" mnemonicParsing="false" onAction="#setNumberButton" text="ввод">
                <HBox.margin>
                   <Insets left="9.0" top="10.0" />
                </HBox.margin>
@@ -72,35 +72,35 @@
                <HBox.margin>
                   <Insets left="2.0" top="10.0" />
                </HBox.margin></Button>
-            <Button fx:id="btn_bacon" mnemonicParsing="false" onAction="#beconButton" text="BACON">
+            <Button fx:id="btn_bacon" disable="true" mnemonicParsing="false" onAction="#beconButton" text="BACON">
                <HBox.margin>
                   <Insets bottom="20.0" left="12.0" top="10.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="btn_corn" mnemonicParsing="false" onAction="#cornButton" text="CORN">
+            <Button fx:id="btn_corn" disable="true" mnemonicParsing="false" onAction="#cornButton" text="CORN">
                <HBox.margin>
                   <Insets left="12.0" top="10.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="btn_cheese" mnemonicParsing="false" onAction="#cheeseButton" text="CHEESE">
+            <Button fx:id="btn_cheese" disable="true" mnemonicParsing="false" onAction="#cheeseButton" text="CHEESE">
                <HBox.margin>
                   <Insets left="12.0" top="10.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="btn_tomato" mnemonicParsing="false" onAction="#tomatoButton" text="TOMATO_PASTE">
+            <Button fx:id="btn_tomato" disable="true" mnemonicParsing="false" onAction="#tomatoButton" text="TOMATO_PASTE">
                <HBox.margin>
                   <Insets left="12.0" top="10.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="btn_salami" mnemonicParsing="false" onAction="#salamiButton" text="SALAMI">
+            <Button fx:id="btn_salami" disable="true" mnemonicParsing="false" onAction="#salamiButton" text="SALAMI">
                <HBox.margin>
                   <Insets left="12.0" top="10.0" />
                </HBox.margin></Button>
-            <Button fx:id="btn_garlic" mnemonicParsing="false" onAction="#garlicButton" text="GARLIC">
+            <Button fx:id="btn_garlic" disable="true" mnemonicParsing="false" onAction="#garlicButton" text="GARLIC">
                <HBox.margin>
                   <Insets left="12.0" top="10.0" />
                </HBox.margin></Button>
-            <Button fx:id="btn_olives" mnemonicParsing="false" onAction="#olivesButton" text="OLIVES">
+            <Button fx:id="btn_olives" disable="true" mnemonicParsing="false" onAction="#olivesButton" text="OLIVES">
                <HBox.margin>
                   <Insets left="12.0" top="10.0" />
                </HBox.margin>
@@ -114,9 +114,29 @@
                   <Insets left="10.0" top="10.0" />
                </HBox.margin>
             </Label>
-            <TextField fx:id="messege" onAction="#setName">
+            <TextField fx:id="messege" onAction="#setName" prefHeight="25.0" prefWidth="120.0">
                <HBox.margin>
                   <Insets left="15.0" top="10.0" />
+               </HBox.margin>
+            </TextField>
+            <Label text="Номер клиента">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="numberClient" onAction="#setNumberClient" prefHeight="25.0" prefWidth="70.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </TextField>
+            <Label text="Номер заказа">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="numberOrder" onAction="#setOrder" prefHeight="25.0" prefWidth="74.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
                </HBox.margin>
             </TextField>
          </children>
@@ -134,7 +154,7 @@
          </children>
       </HBox>
       <TextArea fx:id="ing" prefHeight="140.0" prefWidth="600.0" />
-      <Button fx:id="zakaz" mnemonicParsing="false" onAction="#createOrder" text="заказать">
+      <Button fx:id="orderButton" disable="true" mnemonicParsing="false" onAction="#createOrder" text="заказать">
          <VBox.margin>
             <Insets left="500.0" top="5.0" />
          </VBox.margin>

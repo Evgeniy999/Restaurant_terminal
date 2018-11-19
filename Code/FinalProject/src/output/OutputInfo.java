@@ -13,4 +13,10 @@ public class OutputInfo {
             WriteToFile.writeInformation(nameFile, orders.get(i).toString());
         }
     }
+    public static void output(String nameFile , Order order){
+            WriteToFile.writeInformation(nameFile, order.output().toString());
+    }
+    public static void outputOrderList(String nameFile , Order order){
+        WriteToFile.writeInformationOrder(nameFile, order.output().toString());
+    }
 }

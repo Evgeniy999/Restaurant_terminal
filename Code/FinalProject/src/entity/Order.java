@@ -19,7 +19,7 @@ public class Order {
 
     void checkNumberOrder(int number) {
         if (number < MIN_VALUE || number > MAX_VALUE) {
-            logger.info("The order number is not a five-digit number!");
+            logger.info("The orderOut number is not a five-digit number!");
         }
     }
 
@@ -45,7 +45,7 @@ public class Order {
         return sum;
     }
 
-    public String toString() {
+    public StringBuilder output() {
         double sum = 0;
         StringBuilder str = new StringBuilder();
         Formatter formatter = new Formatter();
@@ -66,7 +66,7 @@ public class Order {
         }
         str.append("Общая сумма: " + formatter.format("%.2f", sum) + "$\n");
         str.append("***********************************\n");
-        return str.toString();
+        return str;
     }
 
     public int getNumberClient() {

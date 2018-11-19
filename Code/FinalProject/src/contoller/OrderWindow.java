@@ -1,5 +1,8 @@
 package contoller;
 
+import entity.Order;
+import io.ReadFromFile;
+import io.WriteToFile;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -16,16 +19,38 @@ public class OrderWindow {
     private TextArea orderStr;
     @FXML
     private Button orderButton;
-    private static OrderWindow orderWindow;
+    @FXML
+    private Button historyButton;
+    @FXML
+    private Button cancel;
 
 
     @FXML
     public void showEvent() {
-        Controller controller = new Controller();
         orderStr.setText("");
-        orderStr.setText(Controller.getOrder().toString());
+        orderStr.setText("" + ReadFromFile.readFile("data/check_list.txt"));
+
     }
-// кнопка заказ писать в файл и вывод заказа в окно с  помощью чтения
+
+    @FXML
+    public void cancel() {
+        Controller controller = new Controller();
+        controller.launchStartWindow();
+    }
+
+
+    @FXML
+    public void showEventHistory() {
+        orderStr.setText("");
+        orderStr.setText("" + ReadFromFile.readFile("data/history.txt"));
+
+    }
+
+    @FXML
+    public void exit() {
+        System.exit(0);
+    }
+
     @FXML
     public void launchOrderWindow() {
         Parent root;

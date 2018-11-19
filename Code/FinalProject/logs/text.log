@@ -1,8 +1,9 @@
-2018-11-15 14:15:43 [JavaFX Application Thread] INFO  entity.Pizza - Enter a name that is too long or small!
-2018-11-15 14:18:00 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
-2018-11-15 14:18:03 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
-2018-11-15 14:18:03 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
-2018-11-15 14:18:06 [JavaFX Application Thread] INFO  entity.Pizza - Enter a name that is too long or small!
-2018-11-15 16:26:09 [JavaFX Application Thread] INFO  entity.Pizza - this ingredient already exists!
-2018-11-15 16:29:49 [JavaFX Application Thread] INFO  entity.Pizza - Pizza is full, check the order!
-2018-11-15 16:32:25 [JavaFX Application Thread] INFO  entity.Pizza - Enter a name that is too long or small!
+2018-11-19 17:23:42 [JavaFX Application Thread] INFO  io.WriteToFile - Completed successfully!
+2018-11-19 17:23:42 [JavaFX Application Thread] INFO  io.WriteToFile - Completed successfully!
+2018-11-19 17:23:44 [JavaFX Application Thread] INFO  io.ReadFromFile - There are empty lines in the project!
+2018-11-19 17:23:44 [JavaFX Application Thread] INFO  io.ReadFromFile - There are empty lines in the project!
+2018-11-19 17:23:44 [JavaFX Application Thread] INFO  io.ReadFromFile - There are empty lines in the project!
+2018-11-19 17:23:44 [JavaFX Application Thread] INFO  io.ReadFromFile - There are empty lines in the project!
+2018-11-19 17:23:44 [JavaFX Application Thread] INFO  io.ReadFromFile - There are empty lines in the project!
+2018-11-19 17:23:44 [JavaFX Application Thread] INFO  io.ReadFromFile - There are empty lines in the project!
+2018-11-19 17:23:47 [JavaFX Application Thread] INFO  io.ReadFromFile - There are empty lines in the project!

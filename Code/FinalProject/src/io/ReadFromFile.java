@@ -13,9 +13,9 @@ public class ReadFromFile {
 
     private static Logger logger = LogManager.getLogger();
 
-    public static ArrayList<String> readFile(String nameFile) {
+    public static StringBuilder readFile(String nameFile) {
         File file = new File(nameFile);
-        ArrayList<String> arrayListStr = new ArrayList<>();
+        StringBuilder arrayListStr = new StringBuilder();
         Scanner scanner = null;
         try {
             scanner = new Scanner(file);
@@ -28,7 +28,8 @@ public class ReadFromFile {
                 if (line.isEmpty()) {
                     logger.info("There are empty lines in the project!");
                 } else {
-                    arrayListStr.add(line);
+                    arrayListStr.append(line);
+                    arrayListStr.append("\n");
                 }
             }
         }

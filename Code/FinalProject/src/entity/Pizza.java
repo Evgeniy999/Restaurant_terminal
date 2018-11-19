@@ -34,7 +34,7 @@ public class Pizza {
             }
         }
         if (pizza.size() >= COUNT_INGREDIENTS) {
-            logger.info("Pizza is full, check the order!");
+            logger.info("Pizza is full, check the orderOut!");
             return;
         } else {
             switch (ingredient) {
@@ -96,7 +96,7 @@ public class Pizza {
         }
     }
 
-    public String order() {
+    public String toString() {
         Formatter formatter = new Formatter();
         formatter.format("%-2s%-2s%-2s%2s%1s%n", "Pizza Base (", nameType, ")", priceType, "$");
 

@@ -13,19 +13,24 @@
          <children>
             <VBox layoutX="44.0" layoutY="53.0" prefHeight="319.0" prefWidth="194.0">
                <children>
-                  <Button fx:id="orderButton" mnemonicParsing="false" onAction="#showEvent" prefHeight="60.0" prefWidth="194.0" text="Оформить заказ" />
-                  <Button mnemonicParsing="false" prefHeight="59.0" prefWidth="194.0" text="Отмена">
+                  <Button fx:id="orderButton" mnemonicParsing="false" onAction="#showEvent" prefHeight="50.0" prefWidth="194.0" text="Оформить заказ" />
+                  <Button fx:id="cancel" mnemonicParsing="false" onAction="#cancel" prefHeight="50.0" prefWidth="194.0" text="Отмена">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="199.0" text="Выход">
+                  <Button fx:id="historyButton" mnemonicParsing="false" onAction="#showEventHistory" prefHeight="50.0" prefWidth="194.0" text="История заказов">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="194.0" text="Выход">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>
                   </Button>
                </children></VBox>
-            <TextArea layoutX="283.0" layoutY="34.0" prefHeight="341.0" prefWidth="267.0" />
+            <TextArea fx:id="orderStr" layoutX="283.0" layoutY="34.0" prefHeight="341.0" prefWidth="267.0" />
          </children>
       </Pane>
    </children>
