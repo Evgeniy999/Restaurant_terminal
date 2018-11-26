@@ -9,3 +9,4 @@ Restaurant_terminal позволяет выполнять необходимые
 * оплата счета 
 
 [Diagrams](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Documentation/Diagrams)
+[Testing](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Testing)
