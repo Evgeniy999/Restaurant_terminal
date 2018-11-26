@@ -8,6 +8,5 @@ Restaurant_terminal позволяет выполнять необходимые
 * работа со счетом
 * оплата счета 
 
-[Diagrams](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Documentation/Diagrams)
-
+[Diagrams](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Documentation/Diagrams)                                           
 [Testing](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Testing)
