@@ -8,6 +8,6 @@ Restaurant_terminal позволяет выполнять необходимые
 * работа со счетом
 * оплата счета 
 
-[Documents](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/SRS.md)                                           
+[SRS Document](https://github.com/Evgeniy999/Restaurant_terminal/blob/master/Documentation/SRS.md)                                         
 [Diagrams](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Documentation/Diagrams)                                           
 [Testing](https://github.com/Evgeniy999/Restaurant_terminal/tree/master/Testing)
